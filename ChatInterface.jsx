@@ -10,7 +10,7 @@ const ChatInterface = () => {
     const [messages, setMessages] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
 
-    // Initialize the Gemini client
+    // Initialize the  client
     const genAI = new GoogleGenerativeAI(API_KEY);
 
     const handleSendMessage = async () => {
